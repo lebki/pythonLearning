@@ -21,8 +21,8 @@ answer = input(": ")
 """Zapis do pliku tylko w string"""
 
 if answer.capitalize() == "Y":
-    student_name = input("Insert the name of student:")
-    student_id = input("Insert the student id")
+    student_name = input("Insert the name of student: ")
+    student_id = input("Insert the student id: ")
     addStudent(student_name, student_id)
     save_file(student_name)
 else:
