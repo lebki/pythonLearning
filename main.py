@@ -1,3 +1,8 @@
+from classes import *
+
+james = HighSchoolStudent("Tomek")
+print(james)
+
 print("Welcome")
 a = 4
 b = 4.21
